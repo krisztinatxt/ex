@@ -1,7 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+/* Font-family imported from Google Fonts,
+important attribute added to overwrite the default font from Boostrap */
+
 html,
 body{
     font-family: 'Open Sans', sans-serif !important;
+    height: 100%;
+
     
+}
+#page-content {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
 }
