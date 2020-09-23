@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
-html{
+html,
+body{
     font-family: 'Open Sans', sans-serif;
-}
-.navbar{
-     font-family: 'Open Sans', sans-serif;
-     color: red;
-     background: green;
+    
 }
