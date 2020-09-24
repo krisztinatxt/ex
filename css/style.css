@@ -36,12 +36,8 @@ body{
 	min-height: 100%;
 }
 
-/*Navbar */
-nav{
-    background: #5CAB7D;
-    color:white;
-    
-}
+/*Navbar, and list items styling */
+
 a {
     color: white;
 }
@@ -54,6 +50,13 @@ a:hover {
     color: white;
 
 }
+/*Font Awesome icons coloring*/
+
 .fa{
+    color:white;
+}
+
+.green{
+    background: #5CAB7D;
     color:white;
 }
