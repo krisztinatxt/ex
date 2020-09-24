@@ -1,13 +1,10 @@
 //Defining variables for the form and succes/error messages
-var success = document.querySelector("#modal2");
-var modalClose = document.querySelector("#modal1");
-var fail = document.querySelector("#modal3")
+var success = document.querySelector("#modal1");
+var fail = document.querySelector("#modal2")
 
 
-function sendOrder(orderForm){
-
-
-    })
+function placeOrder(form){
+    form.submit();
 //Succes message with timeout, the message is not displayed by default
     .then(
         function(response) {
